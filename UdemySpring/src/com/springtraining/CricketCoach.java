@@ -35,7 +35,7 @@ public class CricketCoach implements Coach
 
     public void setFortuneService(FortuneService fortuneService)
     {
-        System.out.println("Cricket coach setter method!");
+        System.out.println("Cricket coach setter method");
         this.fortuneService = fortuneService;
     }
 
