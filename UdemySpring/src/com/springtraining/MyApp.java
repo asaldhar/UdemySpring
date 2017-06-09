@@ -10,6 +10,5 @@ public class MyApp
         Coach obj = (Coach) context.getBean("myBaseballCoach", Coach.class);
         System.out.println(obj.getDailyWorkout());
         System.out.println(obj.getDailyFortune());
-        System.out.println("Test 1");
     }
 }
